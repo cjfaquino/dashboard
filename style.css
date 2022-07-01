@@ -23,3 +23,12 @@ html, body {
 .sidebar {
     grid-area: dashboard;
 }
+
+.content {
+    display: grid;
+    grid-template: 1fr 1fr / 3fr 1fr;
+}
+
+.projects {
+    grid-row: 1 / 3;
+}
