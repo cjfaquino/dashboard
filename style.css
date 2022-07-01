@@ -25,16 +25,44 @@ html, body {
 }
 
 .content {
+    margin: 20px;
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
+}
+
+h3 {
+    display: grid;
+    align-content: end;
 }
 
 .projects {
     grid-row: 1 / 3;
 }
 
+.announcements,
+.trending,
 .cards {
     display: grid;
+    grid-template-rows: 50px;
+}
+
+.cards {
     height: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.cards h3 {
+    grid-column: span 2;
+}
+
+.announce,
+.trends,
+.announceTab,
+.trendTab {
+    display: grid;
+}
+
+.announceTab,
+.trendTab {
+    align-content: center;
 }
