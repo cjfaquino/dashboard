@@ -29,8 +29,11 @@ header {
     grid-template: 50px 1fr / 2fr 1fr;
 }
 
-.search {
+.searchbar {
     background: grey;
+    width: min(100%, 500px);
+    height: 30px;
+    border-radius: 20px;
 }
 
 button {
