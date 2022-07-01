@@ -24,6 +24,23 @@ html, body {
     grid-area: dashboard;
 }
 
+header {
+    display: grid;
+    grid-template: 50px 1fr / 2fr 1fr;
+}
+
+.search {
+    background: grey;
+}
+
+button {
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
 .content {
     margin: 20px;
     display: grid;
