@@ -53,6 +53,7 @@ button {
 h3 {
     display: grid;
     align-content: end;
+    height: 45px;
 }
 
 .projects {
