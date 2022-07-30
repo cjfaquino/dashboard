@@ -63,11 +63,10 @@ h3 {
 .cards {
     height:100%;
     display: grid;
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: 350px;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 25px;
-    overflow: scroll;
 }
 
 .announcements,
