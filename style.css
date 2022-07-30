@@ -21,7 +21,7 @@ ul {
 .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 350px 1fr;
     grid-template-rows: 170px 1fr;
     grid-template-areas: 
     "dashboard header"
@@ -32,12 +32,22 @@ ul {
     grid-area: dashboard;
 }
 
-.sidebar h1 {
-    padding: 25px 10px;
-    margin-bottom: 30px;
+.title {
+    display: grid;
+    grid-template-columns: 0fr;
+    grid-auto-flow: column;
+    margin: auto;
 }
 
-.sidebar h1,
+.title img {
+    height: 60px;
+}
+
+.title h1 {
+    margin: auto 0;
+}
+
+.title,
 .sidebar li {
     margin-left: 20px;
 }
