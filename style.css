@@ -69,6 +69,24 @@ h3 {
     gap: 25px;
 }
 
+.card {
+    height: 100%;
+}
+
+.cardTitle {
+    padding-top: 40px;
+}
+
+.cardTitle,
+.cardDesc {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cardDesc {
+    height: calc(100% - 33px - 25px);
+}
+
 .announcements,
 .trending {
     display: grid;
