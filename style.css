@@ -1,3 +1,7 @@
+:root {
+    --h3-height: 45px;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
@@ -53,7 +57,7 @@ button {
 h3 {
     display: grid;
     align-content: end;
-    height: 45px;
+    height: var(--h3-height);
 }
 
 .projects {
@@ -61,10 +65,9 @@ h3 {
 }
 
 .cards {
-    height:100%;
+    height: calc(100% - var(--h3-height)) ;
     display: grid;
-    grid-template-rows: 350px;
-    grid-auto-rows: 350px;
+    grid-template-rows: repeat(auto-fill, minmax(1fr, 300px));
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 25px;
 }
