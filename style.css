@@ -1,5 +1,6 @@
 :root {
     --h3-height: 45px;
+    --siderbar-margin: 80px;
 }
 
 * {
@@ -37,6 +38,7 @@ ul {
     grid-template-columns: 0fr;
     grid-auto-flow: column;
     margin: auto;
+    margin-bottom: var(--siderbar-margin);
 }
 
 .title img {
@@ -57,7 +59,7 @@ ul {
 }
 
 .settings {
-    margin-top: 80px;
+    margin-top: var(--siderbar-margin);
 }
 
 .topHeader{
