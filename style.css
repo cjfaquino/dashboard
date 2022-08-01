@@ -146,7 +146,7 @@ h3 {
 .announcements,
 .trending {
     display: grid;
-    grid-template-rows: 50px;
+    grid-template-rows: var(--h3-height);
     margin-left: 25px;
 }
 
