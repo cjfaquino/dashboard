@@ -2,7 +2,7 @@
     --h3-height: 45px;
     --siderbar-margin: 40px;
     --grey-accent: rgb(238, 238, 238);
-    --theme-accent: rgb(238, 231, 224);
+    --theme-accent: rgb(245,238,229);
     --gap-size: 30px;
     --bottomHeader-height: 130px;
     --topHeader-height: 70px;
@@ -174,11 +174,13 @@ header {
 
 .account p {
     margin-left: 0;
+    margin-right: 15px;
     font-weight: 700;
     font-size: 1.3rem;
 }
 
 .welcome {
+    grid-template-columns: 90px minmax(300px, 1fr);
     grid-auto-flow: column;
     margin: auto auto auto 0;
 }
