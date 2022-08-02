@@ -276,3 +276,7 @@ h3 {
     grid-template-columns: 75px 1fr;
     grid-auto-flow: column;
 }
+
+.trendTab div {
+    margin: auto auto auto 0;
+}
