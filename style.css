@@ -154,6 +154,10 @@ header {
     height: 60px;
 }
 
+.userIconMedium {
+    height: 90px;
+}
+
 .account p,
 .account img {
     margin: auto;
@@ -164,6 +168,26 @@ header {
     font-weight: 700;
     font-size: 1.3rem;
 }
+
+.welcome {
+    grid-auto-flow: column;
+    margin: auto auto auto 0;
+}
+
+.welcomeText {
+    margin: auto 30px;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.welcomeText p:first-child {
+   font-size: 1.1rem;
+}
+
+.welcomeText p:last-child {
+    font-size: 1.8rem;
+ }
+ 
 
 button {
     padding: 10px;
