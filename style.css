@@ -139,10 +139,30 @@ header {
     background: var(--grey-accent);
     margin: 0 30px;
     padding: 0 15px;
-    width: calc(100% - 60px);
+    width: 80%;
     height: 39px;
     border-radius: 20px;
     border: none;
+}
+
+.account {
+    grid-template-columns: 35px 100px 1fr;
+    justify-content: center;
+}
+
+.userIconSmall {
+    height: 60px;
+}
+
+.account p,
+.account img {
+    margin: auto;
+}
+
+.account p {
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 button {
