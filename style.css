@@ -3,6 +3,10 @@
     --siderbar-margin: 40px;
     --grey-accent: rgb(238, 238, 238);
     --gap-size: 15px;
+    --bottomHeader-height: 130px;
+    --topHeader-height: 70px;
+    --header-margin-top: 13px;
+    --header-height: calc((var(--bottomHeader-height) + var(--topHeader-height) + var(--header-margin-top)))
 }
 
 * {
@@ -33,7 +37,7 @@ hr {
     height: 100%;
     display: grid;
     grid-template-columns: 350px 1fr;
-    grid-template-rows: 183px 1fr;
+    grid-template-rows: var(--header-height) 1fr;
     grid-template-areas: 
     "dashboard header"
     "dashboard content";
@@ -93,7 +97,7 @@ ul img  {
 }
 
 header {
-    margin-top: 13px;
+    margin-top: var(--header-margin-top);
 }
 
 .topHeader,
@@ -104,13 +108,13 @@ header {
 .topHeader{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 70px;
+    grid-template-rows: var(--topHeader-height);
 }
 
 .bottomHeader {
     display: grid;
     grid-template-columns: 1fr;
-    height: 100px;
+    height: var(--bottomHeader-height);
 }
 
 .search,
