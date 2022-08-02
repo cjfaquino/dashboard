@@ -271,3 +271,8 @@ h3 {
 .cardDesc {
     color: rgb(110, 110, 110);
 }
+
+.trendTab {
+    grid-template-columns: 75px 1fr;
+    grid-auto-flow: column;
+}
