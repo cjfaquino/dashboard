@@ -6,7 +6,8 @@
     --bottomHeader-height: 130px;
     --topHeader-height: 70px;
     --header-margin-top: 13px;
-    --header-height: calc((var(--bottomHeader-height) + var(--topHeader-height) + var(--header-margin-top)))
+    --header-height: calc(var(--bottomHeader-height) + var(--topHeader-height) + var(--header-margin-top));
+    --cardTitle-height: 65px;
 }
 
 * {
@@ -248,10 +249,11 @@ h3 {
     padding-top: 40px;
     font-size: 1.4rem;
     font-weight: 700;
+    height: var(--cardTitle-height);
 }
 
 .cardDesc {
-    height: calc(100% - 69px);
+    height: calc(100% - var(--cardTitle-height));
     /* Same as .cardTitle height */
     font-size: 1.2rem;
     padding-bottom: 30px;
