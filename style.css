@@ -211,7 +211,7 @@ button {
 }
 
 .content {
-    padding: 40px 20px 20px 20px;
+    padding: 40px var(--gap-size) var(--gap-size) var(--gap-size);
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
     background-color: var(--grey-accent);
