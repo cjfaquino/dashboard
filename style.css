@@ -46,7 +46,7 @@ hr {
     display: grid;
     grid-template-columns: 0fr;
     grid-auto-flow: column;
-    margin: auto;
+    margin-top: 20px;
     margin-bottom: var(--siderbar-margin);
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 
 .title h1 {
-    margin: auto 0;
+    margin: auto 0 auto 15px;
     font-size: 2rem;
 }
 
