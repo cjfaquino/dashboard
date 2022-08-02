@@ -1,6 +1,7 @@
 :root {
     --h3-height: 45px;
     --siderbar-margin: 40px;
+    --grey-accent: rgb(238, 238, 238);
 }
 
 * {
@@ -91,7 +92,7 @@ hr {
 }
 
 .searchbar {
-    background: rgb(206, 206, 206);
+    background: var(--grey-accent);
     padding: 0 15px;
     width: 90%;
     height: 30px;
@@ -107,6 +108,7 @@ button {
     border: none;
     margin: auto;
     margin-right: 40px;
+    background-color: var(--grey-accent);
 }
 
 .content {
