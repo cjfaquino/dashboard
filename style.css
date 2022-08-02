@@ -254,7 +254,6 @@ h3 {
 
 .cardDesc {
     height: calc(100% - var(--cardTitle-height));
-    /* Same as .cardTitle height */
     font-size: 1.2rem;
     padding-bottom: 30px;
 }
