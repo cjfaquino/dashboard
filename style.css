@@ -22,7 +22,9 @@ ul {
 hr {
     height: 1px;
     margin: auto;
-    width: 80%;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
 }
 
 .container {
