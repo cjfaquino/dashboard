@@ -92,6 +92,7 @@ ul img  {
 }
 
 .topHeader{
+    padding-top: 12px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 70px;
@@ -115,7 +116,7 @@ ul img  {
     background: var(--grey-accent);
     padding: 0 15px;
     width: 90%;
-    height: 30px;
+    height: 39px;
     border-radius: 20px;
     border: none;
 }
