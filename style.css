@@ -287,7 +287,10 @@ h3 {
 
 .announceTitle {
     font-weight: 700;
-    font-size: 1.2rem;
+}
+
+.announceDesc {
+    font-size: .85rem;
 }
 
 .announceDesc,
