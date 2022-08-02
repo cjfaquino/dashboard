@@ -91,6 +91,11 @@ ul img  {
     margin-top: var(--siderbar-margin);
 }
 
+.topHeader,
+.bottomHeader {
+    padding-left: 50px;
+}
+
 .topHeader{
     padding-top: 12px;
     display: grid;
@@ -101,7 +106,6 @@ ul img  {
 .bottomHeader {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-flow: column;
     height: 100px;
 }
 
@@ -112,10 +116,26 @@ ul img  {
     align-content: center;
 }
 
+.search,
+.account,
+.bottomHeader {
+    grid-auto-flow: column;
+}
+
+.search {
+    grid-template-columns: 35px 1fr;
+}
+
+.search img {
+    margin: auto;
+
+}
+
 .searchbar {
     background: var(--grey-accent);
+    margin: 0 30px;
     padding: 0 15px;
-    width: 90%;
+    width: calc(100% - 60px);
     height: 39px;
     border-radius: 20px;
     border: none;
