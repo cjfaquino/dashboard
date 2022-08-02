@@ -78,12 +78,12 @@ ul {
     margin-left: 30px;
 }
 
-ul img {
+ul object {
     height: 35px;
 }
 
 .sidebar li,
-ul img  {
+ul object  {
     margin-top: 15px;
 }
 .sidebar li {
@@ -277,7 +277,7 @@ h3 {
     grid-template-rows: calc(100% - 35px) 35px;
 }
 
-.cardDesc img {
+.cardDesc object {
     height: 35px;
 }
 
