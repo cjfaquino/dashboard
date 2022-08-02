@@ -139,6 +139,8 @@ h3 {
 
 .cardTitle {
     padding-top: 40px;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .cardTitle,
@@ -149,6 +151,7 @@ h3 {
 
 .cardDesc {
     height: calc(100% - 33px - 25px);
+    font-size: 1.2rem;
 }
 
 .announcements,
