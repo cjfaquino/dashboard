@@ -118,7 +118,14 @@ button {
 h3 {
     display: grid;
     align-content: end;
+    font-size: 1.8rem;
     height: var(--h3-height);
+}
+
+.cards,
+.announce,
+.trends {
+    margin-top: 10px;
 }
 
 .projects {
@@ -126,7 +133,7 @@ h3 {
 }
 
 .cards {
-    height: calc(100% - var(--h3-height)) ;
+    height: calc(100% - var(--h3-height) - 10px) ;
     display: grid;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -137,21 +144,22 @@ h3 {
     height: 100%;
 }
 
+.cardTitle,
+.cardDesc {
+    padding: 0 30px;
+}
+
 .cardTitle {
     padding-top: 40px;
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-.cardTitle,
 .cardDesc {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.cardDesc {
-    height: calc(100% - 33px - 25px);
+    height: calc(100% - 69px);
+    /* Same as .cardTitle height */
     font-size: 1.2rem;
+    padding-bottom: 30px;
 }
 
 .announcements,
