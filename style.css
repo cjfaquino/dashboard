@@ -5,8 +5,8 @@
     --gap-size: 15px;
     --bottomHeader-height: 130px;
     --topHeader-height: 70px;
-    --header-margin-top: 13px;
-    --header-height: calc(var(--bottomHeader-height) + var(--topHeader-height) + var(--header-margin-top));
+    --header-padding-top: 13px;
+    --header-height: calc(var(--bottomHeader-height) + var(--topHeader-height) + var(--header-padding-top));
     --cardTitle-height: 65px;
 }
 
@@ -98,7 +98,7 @@ ul img  {
 }
 
 header {
-    margin-top: var(--header-margin-top);
+    padding-top: var(--header-padding-top);
 }
 
 .topHeader,
