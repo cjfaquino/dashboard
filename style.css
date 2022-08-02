@@ -272,6 +272,23 @@ h3 {
     height: calc(100% - var(--cardTitle-height));
     font-size: 1.2rem;
     padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: calc(100% - 35px) 35px;
+}
+
+.cardDesc img {
+    height: 35px;
+}
+
+.cardDesc p {
+    grid-column: 1 / 9; 
+}
+
+.cardDesc div {
+    grid-column: 6 / 9;
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .announcements,
