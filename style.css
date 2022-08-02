@@ -45,6 +45,7 @@ hr {
 }
 
 .sidebar {
+    background-color: var(--grey-accent);
     grid-area: dashboard;
 }
 
