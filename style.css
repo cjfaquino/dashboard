@@ -234,6 +234,8 @@ h3 {
 .announce,
 .trends {
     background: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 8px;
 }
 
 .projects {
