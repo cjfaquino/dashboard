@@ -167,7 +167,27 @@ h3 {
     display: grid;
 }
 
+.announce,
+.trends {
+    padding: 20px;
+}
+
 .announceTab,
 .trendTab {
     align-content: center;
+}
+
+.announceTab {
+    padding: 10px 0;
+}
+
+.announceTitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.announceDesc,
+.trendDesc,
+.cardDesc {
+    color: rgb(110, 110, 110);
 }
